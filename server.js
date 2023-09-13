@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
-const port = process.env.port || 3500
+const port = process.env.port || 10000
 const path = require('path')
 const { user } = require('./middleware/user')
 const errorlog  = require('./middleware/errorlog')
